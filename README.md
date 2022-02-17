@@ -9,7 +9,7 @@ Add instance to `molecule.yml` file:
 ...
 platforms:
   - name: instance
-    image: artemshestakov/oraclelinux-docker:latest
+    image: artemshestakov/oraclelinux-8-docker:latest
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro
     privileged: true
