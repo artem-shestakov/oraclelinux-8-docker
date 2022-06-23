@@ -31,6 +31,7 @@ RUN yum -y install rpm dnf-plugins-core \
       python3-pyyaml \
       tar \
       zip \
+      unzip \
  && yum clean all
 
 # Upgrade pip to latest version.
